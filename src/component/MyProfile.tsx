@@ -8,7 +8,7 @@ interface Props {
 const MyProfile = ({ picture }: Props) => {
   return (
     <div className=" container-fluid px-0 row g-0">
-      <div className=" col-4 p-0 img-fluid w-100">
+      <div className=" col-4 p-0 w-100">
         <img
           src={picture.url}
           alt={picture.name}

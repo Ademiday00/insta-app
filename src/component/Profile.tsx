@@ -42,7 +42,7 @@ const Profile = () => {
               </a>
               <p className="mt-0">Posts</p>
             </div>
-            <div>
+            <div className=" m-lg-3">
               <a
                 className="text-white text-decoration-none ms-3"
                 href="#"
@@ -101,7 +101,7 @@ const Profile = () => {
             <i className="fas fa-play"></i>
             <i className="fas fa-user-tag"></i>
           </div>
-          <div className="container-fluid g-0">
+          <div className="container-fluid">
             <div className="row row-cols-3 row-cols-md-3 row-cols-lg-3 g-3 ">
               {pictures.map((pictures, index) => (
                 <MyProfile key={index} picture={pictures} />
