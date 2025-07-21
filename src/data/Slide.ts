@@ -1,4 +1,4 @@
-import React from "react";
+//import React from "react";
 import dayo from "../assets/Dayo.jpg";
 import beauty from "../assets/landscape 1.jpeg";
 import beauty2 from "../assets/landscap-2.jpeg";

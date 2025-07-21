@@ -1,4 +1,3 @@
-import React from "react";
 import StoryCircle from "./StoryCircle";
 import users from "../data/users";
 
